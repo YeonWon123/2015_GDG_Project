@@ -1,0 +1,7 @@
+chcp 65001
+
+글꼴 변경
+
+http://openapi.seoul.go.kr:8088/434d4d665532313937387173466e59/json/SearchSTNTimeTableByFRCodeService/1/1000/738/1/1/
+
+434d4d665532313937387173466e59

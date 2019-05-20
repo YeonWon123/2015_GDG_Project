@@ -1,0 +1,11 @@
+#!/usr/bin/env perl
+use utf8;
+use 5.010;
+use strict;
+use warnings;
+
+my $input = "!계산 42 * 999";
+
+if ($input =~ /!계산 (\d+)\s*([+\-*\/])\s*(\d+)/){
+		say "$1 $2 $3";
+}

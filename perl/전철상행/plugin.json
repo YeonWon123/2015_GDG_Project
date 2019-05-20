@@ -1,0 +1,14 @@
+{
+    "name": "subway_up",
+    "author": "남윤원",
+    "version": "1.0",
+    "description": "숭실대입구역 상행선 전철 시간표입니다.",
+    "usage": "ping",
+    "exec": "subway_up.pl",
+    "type": "trigger",
+    "trigger": {
+        "type":  "message",
+        "regex": "^!전철상행$"
+    },
+    "gimme": ["user", "text"]
+}

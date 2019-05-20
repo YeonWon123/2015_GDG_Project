@@ -1,0 +1,14 @@
+{
+    "name": "전철하행",
+    "author": "남윤원",
+    "version": "1.0",
+    "description": "숭실대입구역 하행선 전철 시간표입니다.",
+    "usage": "ping",
+    "exec": "전철하행.pl",
+    "type": "trigger",
+    "trigger": {
+        "type":  "message",
+        "regex": "^!전철하행$"
+    },
+    "gimme": ["user", "text"]
+}
